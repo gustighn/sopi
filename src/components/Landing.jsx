@@ -5,8 +5,7 @@ import { CartContext } from "../App";
 
 const Landing = () => {
 
-  const stateProvider = useContext(CartContext);
-
+  // Removed unused stateProvider
   return (
     <section class="text-gray-400 body-font bg-gray-900">
       <div class="container px-5 py-24 mx-auto">
